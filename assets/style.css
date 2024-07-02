@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body, html {
+    margin: 0;
+    font-family: "Poppins", sans-serif !important;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.headline {
+  left: 130px;
+} 
+@media screen and (max-width: 650px){
+  .headline {
+    left: 20px;
+  } 
+  .clipped {
+    clip-path: none;
+    max-height: 300px !important;
+  }
+}
